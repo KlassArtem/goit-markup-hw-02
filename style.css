@@ -1,0 +1,267 @@
+:root {
+    --main-text-color: #757575;
+    --title-color: #212121;
+    --accent-color: #2196f3;
+    --background-color: #ffffff;
+    --team-description-background: #f5f4fa;
+    --secondary-background-color: #2f303a;
+    --modal-button-hover-color: #188ce8;
+    --modal-button-hover-options: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    --footer-adress-color: rgba(255, 255, 255, 0.6);
+    --letter-spacing-main: 0.03 em;
+    --filter-menu-main-color: #f5f4fa;
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.logo-header {
+    color: var(--title-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-header>span {
+    color: var(--accent-color);
+    line-height: 1.38;
+}
+
+.nav-link {
+    color: var(--title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.navigation .nav-link.current {
+    color: var(--accent-color);
+}
+
+.contacts-header .mail,
+.contacts-header .tel {
+    color: var(--main-text-color);
+    font-style: normal;
+}
+
+.contacts-header .mail:hover,
+.contacts-header .mail:focus {
+    color: var(--accent-color);
+}
+
+.contacts-header .tel:hover,
+.contacts-header .tel:focus {
+    color: var(--accent-color);
+}
+
+.hero-block {
+    background-color: var(--secondary-background-color);
+}
+
+.title-hero {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.modal-button {
+    font-family: inherit;
+    color: var(--background-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color: var(--modal-button-hover-color);
+    box-shadow: var(--modal-button-hover-options);
+    border-radius: 4px;
+}
+
+.block-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.advantages-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-text-color);
+}
+
+.what-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.team-decsription {
+    background-color: var(--team-description-background);
+}
+
+.team-decsription-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.team-personal-card {
+    background-color: var(--background-color);
+}
+
+.team-personal-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.team-personal-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+/* ===FOOTER=== */
+
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
+.logo-footer {
+    color: var(--background-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer>span {
+    color: var(--accent-color);
+    line-height: 1.38;
+}
+
+.address {
+    font-style: normal;
+}
+
+.footer-contact-adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--background-color);
+}
+
+.footer-contact-mail,
+.footer-contact-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-adress-color);
+}
+
+.footer-contact-adress:hover,
+.footer-contact-adress:focus {
+    color: var(--accent-color);
+}
+
+.footer-contact-mail:hover,
+.footer-contact-mail:focus {
+    color: var(--accent-color);
+}
+
+.footer-contact-tel:hover,
+.footer-contact-tel:focus {
+    color: var(--accent-color);
+}
+
+/* === END FOOTER FOR MAIN PAGE=== */
+
+/* PORTFOLIO PAGE */
+
+.filter-menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--title-color);
+    background: var(--filter-menu-main-color);
+    cursor: pointer;
+}
+
+.filter-menu-item:hover,
+.filter-menu-item:focus {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-card-box {
+    background-color: var(--background-color);
+}
+
+.card-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.card-category {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--main-text-color);
+}
