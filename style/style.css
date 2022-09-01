@@ -31,6 +31,9 @@ body {
   background-color: var(--main-background-color);
   color: var(--main-p-color);
 }
+.body-index {
+  background-color: #ffffff;
+}
 /* Header */
 .logo {
   font-family: var(--primary-font-family);
