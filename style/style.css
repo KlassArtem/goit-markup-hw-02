@@ -171,3 +171,43 @@ body {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+/*hero section*/
+.body-portfolio {
+  background-color: #ffffff;
+}
+.button-filter {
+  color: rgba(33, 33, 33, 1);
+  background-color: #f5f4fa;
+  background: var(--section-persons-background-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 500;
+  letter-spacing: var(--primary-letter-spacing);
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--logo-color);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: var(--box-shadow-filter);
+  border-radius: 4px;
+}
+/* portfolio project section */
+.project-h {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: var(--secondary-letter-spacing);
+  color: var(--color);
+  line-height: 2;
+}
+.project-p {
+  color: var(--main-p-color);
+  font-size: 16px;
+  letter-spacing: var(--primary-letter-spacing);
+  line-height: 1.875;
+  font-weight: 400;
+}
